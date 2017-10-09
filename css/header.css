@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700');
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+    
+}
+body input:required:valid,
+body textarea:required:valid {
+    
+}
+
+
+
+body {
+    font-family: "RobotoThin", sans-serif;
+}
+
+
+/*Хедер*/
+
+header {
+	font-family: "RobotoThin";
+}
+/*Верхняя линия*/
+.top_line {
+	min-height: 50px;
+	background-color: #000000;
+	color: #fff;
+}
+.top_line ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 15px;
+
+}
+
+.top_line li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.top_line a {
+	color:#fff;
+    font-family: "RobotoRegular", sans-serif;
+}
+.top_line a:hover {
+	text-decoration: underline;
+	 -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+	color: #ccc;
+}
+.top-line i {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.top-contacts i {
+    margin-right: 10px;
+}
+
+.top-contacts .fa-envelope {
+    margin-left: 30px;
+}
+
+.top-contacts {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 14px 0;
+}
+.top-contacts span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: "RobotoThin", sans-serif;
+    
+}
+
+/*Верхние иконки соц сетей*/
+.top_icons {
+	text-align: center;
+}
+.top_icons ul {
+	list-style-type: none;
+}
+
+
+/*Верхние кнопки входа и смены языка*/
+
+
+.top_buttons ul {
+	list-style-type: none;
+	display: block;
+	padding: 0;
+	margin: 0;
+	float:left;
+	background-color: #242424 !important;
+	
+}
+.top_buttons ul li {
+	display: inline-block;
+	margin-right: 0px;
+
+}
+.top_buttons a {
+	color: #ffffff;
+	display: block;
+	height: 100%;
+	line-height: 50px;
+	font-size: 14px;
+	padding: 0px 20px;
+}
+.tob_buttons:hover {
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.top_buttons a:hover {
+	background-color: #cccccc;
+	text-decoration: none;
+	color: blue;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+/*Верхняя кнопка языка*/
+.top_language {
+    position: relative;
+}
+.top_language ul {
+    position: absolute;
+    position: absolute;
+    top: 26px;
+    left: 88%;
+    z-index: 1;
+    width: 43px;
+    padding: 5px 0px;
+}
+.top_language a {
+    margin-left: 9px;
+}
+.dropdown-toggle-ru {
+  background: transparent;
+    border:medium none;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    float:right;
+    margin-top: 12px;
+    font-family: "Roboto Black", sans-serif !important;
+    font-size: 14px;
+    padding: 2px 6px;
+}
+.top_language a:hover {
+    text-decoration: none;
+-webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.dropdown-ru {
+ display: none;
+    
+    background: #000;
+    
+    padding: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+.dropdown-ru li {
+    list-style-type: none;
+    display: block;
+}
+.dropdown-ru a {
+    text-decoration: none;
+    padding-left: 5px;
+    font-family: "RobotoBold";
+    color: #fff;
+}
+.dropdown-ru a:hover {
+    color: #fff;
+    text-decoration: underline;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    color: #fff;
+}
+
+.main-menu {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+/*логотип*/
+.main_logo {
+	line-height: 100px;
+}
+
+/*Кнопка респонсив*/
+.responsive-bottom-icons {
+    text-align: left;
+
+}
+.responsive-bottom-icons ul {
+    list-style-type: none;
+    
+}
+.responsive-bottom-icons ul li {
+    display: inline-block;
+    padding-right: 20px;
+    margin: 0;
+    
+}
+.main-mnu_button {
+    border: medium none;
+    background-color: transparent;
+    font-size:40px;
+    margin-top: 20px;
+}
+
+.main-mnu_button {
+    color: #296cd2;
+
+    
+}
+.menu-left {
+    float: right;
+
+}
+
+
+/*Главная навигация*/
+.main_nav {
+	text-align: right;
+	margin-right: -5px;
+}
+.main_nav ul {
+	padding-left: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.main_nav li {
+	display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    font-size: 18px;
+    margin-right: 30px;
+}
+.main_nav a {
+	color: #000;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-family: "Roboto Black",sans-serif;
+}
+.main_nav .nav_active {
+	border-bottom: 6px solid #296cd2;
+}
+
+.main_nav li:hover {
+    border-bottom: 6px solid #296cd2;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    z-index: 999;
+}
+
+/*Корзинка*/
+.basket_wrap {
+	text-align: right;
+    padding: 28px 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.basket {
+    width: 44px;
+    height: 44px;
+    background-color: #296cd2;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.basket:hover {
+    background-color: #3887ff;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.basket img {
+    
+    transform: translate(30%, 40%);
+}
+
+
+.basket span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #000;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    right: -5px;
+    top: -5px;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700');
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+    
+}
+body input:required:valid,
+body textarea:required:valid {
+    
+}
+
+
+
+body {
+    font-family: "RobotoLight", sans-serif;
+}
+.main-info-all-events {
+	background-image: url(../img/building-training-bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.main-info-all-events h2 {
+    font-family: "RobotoBold", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 40px;
+margin-bottom: 40px;
+    position: relative;
+    text-align: left;
+    color: #000;
+}
+
+.main-info-all-events h2:after {
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    background-color: #296cd2;
+    bottom: -40px;
+    height: 6px;
+    left: 49px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 94px;
+    content: "";
+}
+
+
+
+.all-events-description {
+	background-image: url(../img/bg-all-events.jpg);
+	background-position: center bottom;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	min-height: 420px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+
+.digest-all-events {
+	margin-top: 35px;
+}
+.digest-all-events a p {
+	background-color: #296cd2;
+	color:#fff;
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 12px;
+	padding: 0 0 5px 8px;
+	
+}
+.digest-all-events a p span {
+	font-size:36px;
+	font-family: "RobotoRegular", sans-serif;
+	padding: 0;
+	    
+}
+
+
+.digest-all-events a h5 {
+	font-size: 12px;
+	font-family: "RobotoLight";
+	color: #000;
+	margin: 0;
+	padding: 6px 0px 1px 5px;
+}
+.digest-all-events a h4 {
+	font-size: 18px;
+	font-family: "RobotoLight";
+	color: #000;
+	margin: 0;
+	padding: 1px 0px 10px 5px;
+}
+.digest-all-events img {
+	width: 14px;
+	height: 14px;
+
+}
+
+
+.coming-all-event{
+	position: relative;
+    cursor: pointer;
+    margin-top: 35px;
+}
+.coming-all-event img{
+    width: 100%;
+    cursor: pointer;
+}
+.coming-all-event span {
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.2;
+    padding: 8px 11px;
+    position: absolute;
+    font-family: "RobotoRegular", sans-serif;
+
+}
+
+
+
+.all-events-description h1 {
+	font-size: 34px;
+	font-family: "RobotoLight",sans-serif;
+	font-weight: 100;
+	color: #000;
+}
+.all-events-description h1:hover {
+	text-decoration: underline;
+}
+
+
+.bottom-map-line {
+	background-color: #000;
+	min-height: 50px;
+	width: 100%;
+	position: relative;
+	margin: 20px 0 20px 0;
+
+	
+}
+.bottom-map-line h3 {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	padding-left: 20px;
+    line-height: 44px;
+    font-weight: 500;
+}
+.bottom-map-line h3 img {
+	padding-right: 15px;
+}
+.bottom-map-line p {
+	font-family: "RobotoLight", sans-serif;
+	font-size: 16px;
+	color: #fff;
+	text-align: right;
+	padding: 13px 20px 0 0px;
+	margin: 0;
+}
+
+.all-events-description p {
+	font-size: 16px;
+	font-family: "RobotoLight",sans-serif;
+	font-weight: 100;
+	
+}
+
+.button-all-events a {
+    display: inline-block;
+    font-size: 16px;
+    font-family: "RobotoBold", sans-serif;
+    height: 40px;
+    line-height: 38px;
+    margin-top: 5px;
+    padding-left: 29px;
+    position: relative;
+    width: 170px;
+    margin-right: 30px;
+}
+
+.button-all-events a i {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+.button-all-events .all-events-trans-button {
+    -webkit-border-radius: 2px;
+    background:transparent;
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: #000;
+}
+
+.all-events-trans-button:hover {
+    border: 1px solid #3887ff;
+    color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+
+
+
+
+
+
+.main-button-all-events a {
+    display: inline-block;
+    font-size: 16px;
+    font-family: "RobotoBold", sans-serif;
+    height: 40px;
+    line-height: 38px;
+    margin-top: 5px;
+    padding-left: 29px;
+    position: relative;
+    width: 170px;
+    margin-right: 30px;
+}
+
+.main-button-all-events a i {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+.all-events-button {
+	
+}
+
+.all-events-blue-button {
+    background-color: #296cd2;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.all-events-blue-button:hover {
+    background-color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.main-button-all-events .all-events-transparent-button {
+    -webkit-border-radius: 2px;
+    background:transparent;
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: #000;
+}
+
+.all-events-transparent-button:hover {
+    border: 1px solid #3887ff;
+    color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+
+
+
+
+.information-all-events img {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+.information-all-events h4 {
+	font-size: 24px;
+	font-family: "RobotoRegular",sans-serif;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+	
+}
+.information-all-events h4 {
+	color: #000;
+}
+.information-all-events h4:hover {
+	text-decoration: underline;
+}
+
+.information-all-events p {
+	font-size: 16px;
+	font-family: "RobotoLight",sans-serif;
+	margin-bottom: 30px;
+}
+
+.information-all-events .main-button-all-events {
+	
+}
+
+
+
+.load-more-events {
+	text-align: center;
+}
+.load-more-events {
+	margin-top: 30px;
+}
+
+.load-more-events a {
+    display: inline-block;
+    font-size: 16px;
+    font-family: "RobotoBold", sans-serif;
+    height: 40px;
+    line-height: 38px;
+    margin-top: 5px;
+    
+    position: relative;
+    width: 265px;
+    margin-right: 30px;
+    
+    color: #fff;
+    margin-bottom: 15px;
+}
+.load-more-events a:hover {
+	text-decoration: none;
+	
+
+}
+
+.load-more-events-button-blue {
+    background-color: #296cd2;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.load-more-events-button-blue:hover {
+    background-color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+
+
+.item-list {
+	background-color: transparent;
+	position: relative;
+	    
+    padding: 5px 10px 30px 0px;
+}
+
+.item-list ul {
+	margin: 0;
+	padding: 0;
+	/*margin-left: 200px;*/
+	text-align: center;
+}
+.pager ul{
+	margin: 0;
+	padding: 0;
+	background:transparent;
+}
+.pager img {
+	margin-top: 0px;
+}
+.pager li {
+	
+	display: inline-block;
+	padding: 7px 17px;
+}
+.pager-active {
+	border: 1px solid #000; 
+	border-radius: 3px;
+}
+.pager li:hover {
+	background:transparent;
+	border: 1px solid #000;
+	border-radius: 3px;
+	color:#000;
+}
+.pager a {
+	color: #296cd2;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "RobotoRegular", sans-serif;;
+}
+
+.pager a:hover {
+color:#000;
+}
+
+
+
+
+
+
+.digest {
+	background-color: #fff;
+	position: relative;
+	z-index: 999;
+}
+.digest a p {
+	border:1px solid #296cd2;
+	color:#296cd2;
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 12px;
+	padding: 0 0 5px 0px;
+	text-align: center;
+	
+}
+.digest a p span {
+	font-size:36px;
+	font-family: "RobotoRegular", sans-serif;
+	padding: 0;
+	    text-align: center;
+}
+
+.polosa1:after {
+	content: "";
+	background-color: #296cd2;
+    height: 142px;
+    position: absolute;
+    right: 50%;
+    top: 100%;
+    width: 1px;
+    z-index: 0;
+	
+}
+
+.polosa2:after {
+	content: "";
+	background-color: #296cd2;
+    height: 142px;
+    position: absolute;
+    right: 50%;
+    top: 100%;
+    width: 1px;
+    z-index: 0;
+	
+}

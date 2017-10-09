@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>События</title>
+	<meta name="description" content="" />
+	<link rel="shortcut icon" href="http://dev2.pkizeev.adr.com.ua/img/favicon/favicon.ico" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/blog.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/jquery.es-drawermenu.min.css">
+</head>
+<body>
+
+
+	<!--Начало Хедера-->
+	<header>
+		<div class="top_line">
+			<div class="container">
+				<div class="row">
+					<!-- Емейл телефон -->
+
+					<div class="col-md-4 col-sm-6">
+						<div class="top-contacts">
+							<a href="tel:+7 (499) 322-09-52"><i class="fa fa-phone" aria-hidden="true"></i>
+								<span>+7 (499) 322-09-52</span></a>
+								<a href="mailto:someone@yoursite.com"><i class="fa fa-envelope" aria-hidden="true"></i>
+									<span>info@kuzavov.info</span></a>
+								</div>
+
+							</div>
+							<!-- Верхние иконки -->
+							<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+								<div class="top_icons">
+									<ul>
+										<li><a href="#"><img src="img/fb.png" alt="Стас Кузавов"></a></li>
+										<li><a href="#"><img src="img/twit.png" alt="Стас Кузавов"></a></li>
+										<li><a href="#"><img src="img/linkedin-logo.png" alt="Стас Кузавов"></a></li>
+										<li><a href="#"><img src="img/insta.png" alt="Стас Кузавов"></a></li>
+										<li><a href="#"><img src="img/youtube-symbol.png" alt="Стас Кузавов"></a></li>
+									</ul>	
+								</div>
+
+							</div>
+							<!-- Войти регистрация -->
+							<div class="col-md-4 hidden-xs">
+								<div class="top_buttons">
+									<ul>
+										<li><a href="#">Войти</a></li>
+										<li><a href="#">Зарегистрироваться</a></li>
+										
+									</ul>
+								</div>
+								<!-- Кнопка смены языка -->
+								<div class="top_language">
+									
+									<a class="dropdown-toggle-ru" href="#" title="Menu">RU <img src="img/top-pointer-down.png" alt=""></a>
+									<ul class="dropdown-ru">
+										<li><a href="#">ua</a></li>
+										<li><a href="#">fr</a></li>
+										<li><a href="#">en</a></li>
+									</ul>
+									
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Главное меню -->
+				<div class="main-menu">
+					<div class="container">
+						<div class="row">
+							<!-- Логотип -->
+							<div class="col-md-3 col-sm-3 col-xs-8">
+								<div class="main_logo">
+									<a href="index.html"><img src="img/logo.png" alt=""></a>
+								</div>
+							</div>
+							<!-- Навигация -->
+
+							<div class="col-md-8 col-sm-8 hidden-xs">
+								<nav class="main_nav clearfix">
+									<ul>
+										<li><a href="index.html">Главная</a></li>
+										<li><a href="trainer.html">О тренере</a></li>
+										<li><a href="all-events.html">События</a></li>
+										<li><a href="event.html">Магазин</a></li>
+										<li class="nav_active"><a href="blog.html">Блог</a></li>
+										<li><a href="contacts.html">Контакты</a></li>
+										<li><a href="trening.html">Подкасты</a></li>
+									</ul>
+									
+								</nav>
+							</div>
+							<!-- Корзинка -->
+							<div class="col-md-1 col-sm-1">
+								<div class="basket_wrap hidden-xs">
+									<div class="basket">
+										<img src="img/basket.png" alt="корзина">
+										<span class="basket-item">2</span>
+									</div>
+
+								</div>
+								<section class="navbar-menu hidden-sm hidden-md hidden-lg">
+									<div class="menu-left clearfix">
+										<button class="main-mnu_button hamburger drawer-toggle hidden-md hidden-lg"><i class="fa fa-bars" aria-hidden="true"></i></button>
+										
+									</div>
+									
+									<nav class="drawermenu">
+										<button class="main-mnu_button arrow drawer-toggle hidden-md hidden-lg"><img src="img/menu-arrow.png" alt=""></button>
+										<ul>
+											<li><a href="index.html">Главная</a></li>
+											<li>
+												<a href="trainer.html">О Тренере</a>
+											</li>
+											<li><a href="all-events.html">События</a></li>
+											<li><a href="event.html">Магазин</a></li>
+											<li><a href="blog.html">Блог</a></li>
+											<li><a href="contacts.html">Контакты</a></li>
+											<li><a href="#"></a>
+												<div class="responsive-menu-top-button">
+													<button class="dropdown-toggle">
+														<span>RU</span>
+														<img src="img/down-black.png" alt="">
+
+													</button>
+													<ul class="responsive-menu-drop">
+														<li><a href="#">ua</a></li>
+														<li><a href="#">fr</a></li>
+														<li><a href="#">en</a></li>
+													</ul>
+												</div>
+											</li>
+											<li><div class="responsive-bottom-icons">
+												<ul>
+													<li><a href="#"><img src="img/fb-black.png" alt="Стас Кузавов"></a></li>
+													<li><a href="#"><img src="img/twit-black.png" alt="Стас Кузавов"></a></li>
+													<li><a href="#"><img src="img/linkedin-black.png" alt="Стас Кузавов"></a></li>
+													<li><a href="#"><img src="img/insta-black.png" alt="Стас Кузавов"></a></li>
+													<li><a href="#"><img src="img/youtube-play-black.png" alt="Стас Кузавов"></a></li>
+												</ul>	
+											</div></li>
+
+										</ul>
+									</nav>
+								</section>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+
+			</header>
+
+
+
+
+			<section class="main-info-blog">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-4 col-xs-12">
+							<div class="all-events-polosa">
+								<h2>Блог</h2>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-8 col-xs-12">
+							<form class="form-wrapper cf">
+	<input type="text" placeholder="Что ищем?" required>
+	<button type="submit"><span class="hidden-xs visible-md visible-sm visible-lg">найти</span> <img class="hidden-lg hidden-md hidden-sm" src="img/lupa.png" alt=""></button>
+</form>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-4 col-xs-12">
+							<div class="blog-left-asside-info">
+								<h3>Категории</h3>
+
+
+	<div class="drops-button-trening-blog hidden-sm hidden-md hidden-lg visible-xs">
+
+			<a class="dropdown-blog-button" href="#" title="Menu">Трениги</a>
+				<ul class="dropdown-blog">
+					<li><a href="#">news</a></li>
+					<li><a href="#">news</a></li>
+					<li><a href="#">news</a></li>
+				</ul>
+
+			</div>
+
+
+
+
+								<ul class="hidden-xs">
+									<li><a href="#">Все записи</a></li>
+									<li><a href="#">Тренинги</a></li>
+									<li><a href="#">Интервью</a></li>
+									<li><a href="#">Прорыв</a></li>
+									<li><a href="#">Бизнес</a></li>
+								</ul>
+							</div>
+
+							<div class="clearfix"></div>
+
+							<div class="blog-left-asside-calendar hidden-xs">
+								<h3>Поиск по дате</h3>
+								<table id="calendar2">
+									<thead>
+										<tr><td>‹<td colspan="5"><td>›<tr>
+											<tr><td>Пн<td>Вт<td>Ср<td>Чт<td>Пт<td>Сб<td>Вс<tr>
+												<tbody></tbody>
+											</table>
+										</div> 
+										<div class="clearfix"></div>
+
+										<div class="blog-left-asside-tags hidden-xs">
+											<h3>Поиск по тегу</h3>
+											<ul>
+												<li><a href="#">teamwork</a></li>
+												<li><a href="#">команда</a></li>
+												<li><a href="#">мотивация</a></li>
+												<li><a href="#">Стас</a></li>
+												<li><a href="#">тренинг</a></li>
+											</ul>
+
+										</div>	
+
+										<div class="blog-left-asside-podkast hidden-xs">
+											<h3>Подкасты</h3>
+											<ul>
+												<li><a href="#"><img src="img/podkast.jpg" alt=""></a></li>
+												<li><a href="#"><h3>аудио подкаст</h3></a></li>
+												<li><a href="#">
+													<ul class="star">
+														<li><img src="img/yellow-star.png" alt=""></li>
+														<li><img src="img/yellow-star.png" alt=""></li>
+														<li><img src="img/yellow-star.png" alt=""></li>
+														<li><img src="img/yellow-star.png" alt=""></li>
+														<li><img src="img/yellow-star.png" alt=""></li>
+													</ul>
+												</a></li>
+												<li><span><a href="#"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste</p></a></span></li>
+												<li><a class="podrobnee" href="#">Подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+											</ul>
+
+											<ul class="podkast2">
+												<li><a href="#"><img src="img/podkast.jpg" alt=""></a></li>
+												<li><a href="#"><h3>аудио подкаст</h3></a></li>
+												<li><a href="#">
+													<ul class="star">
+														<li><img src="img/yellow-star.png" alt=""></li>
+														<li><img src="img/yellow-star.png" alt=""></li>
+														<li><img src="img/yellow-star.png" alt=""></li>
+														<li><img src="img/yellow-star.png" alt=""></li>
+														<li><img src="img/yellow-star.png" alt=""></li>
+													</ul>
+												</a></li>
+												<li><span><a href="#"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste</p></a></span></li>
+												<li><a class="podrobnee" href="#">Подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+											</ul>
+											<div class="view-all-button">
+												<a href="#" class="view-all">показать все</a>
+											</div>
+
+										</div>
+
+
+										<div class="blog-left-asside-update hidden-xs">
+											<form class="reg-form-update" action="#">
+												<h3>Подпишитесь на обновления</h3>
+												<input id="mail" title="example@mail.com" pattern="\S+@[a-z]+[.]+[a-z]{1,}" type="text" placeholder="Введите e-mail">
+
+												<div class="submit-button-wrap-reg-form-update">
+													<input class="submit-button-reg-form-update" value="подписаться" type="submit">
+													<img src="img/form-pointer.png" alt="">
+												</div>
+											</form>
+										</div>	
+
+
+										<div class="blog-left-asside-read hidden-xs">
+											<h3>Читайте, где удобно</h3>
+											<ul>
+												<li><a href="#"><img src="img/facebook-black.png" alt=""></a></li>
+												<li><a href="#"><img src="img/twitter-black.png" alt=""></a></li>
+												<li><a href="#"><img src="img/linkedin-blackBOLD.png" alt=""></a></li>
+												<li><a href="#"><img src="img/insta-blackBOLD.png" alt=""></a></li>
+												<li><a href="#"><img src="img/youtube-black.png" alt=""></a></li>
+											</ul>
+										</div>
+
+									</div>
+
+
+
+
+
+
+
+									<div class="col-md-9 col-sm-8 col-xs-12">
+										<div class="row">
+											<div class="col-md-12 col-sm-12 hidden-xs">
+												<div class="two-buttons-trening">
+													<a class="transparent-button-trening" href="#"><i class="fa fa-times" aria-hidden="true"></i>Тренинги</a>
+													<a class="transparent-button-trening" href="#"><i class="fa fa-times" aria-hidden="true"></i>23 декабря 2016</a>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="blog-trening">
+												<div class="col-md-3 hidden-sm col-xs-12">
+													<h5>Тренинги</h5>
+												</div>
+												<div class="col-md-9 col-sm-12">
+													<div class="sorting">
+														<ul>
+															<li><p>Сортировать</p></li>
+															<li>
+																<div class="drops-button">
+
+																	<a class="dropdown-news-button" href="#" title="Menu">Сначала новые </a>
+																	<ul class="dropdown-news">
+																		<li><a href="#">news</a></li>
+																		<li><a href="#">news</a></li>
+																		<li><a href="#">news</a></li>
+																	</ul>
+
+																</div>
+															</li>
+															<li><p>Количество</p></li>
+
+															<li><div class="drops-button-number">
+
+																<a class="dropdown-number-button" href="#" title="Menu">8 </a>
+																<ul class="dropdown-number">
+																	<li><a href="#">1</a></li>
+																	<li><a href="#">2</a></li>
+																	<li><a href="#">3</a></li>
+																</ul>
+
+															</div></li>
+															<li><p>Показано 8 из 24</p></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+
+										</div>
+										<div class="row">
+											<div class="col-md-6 col-sm-10 col-xs-12">
+												<div class="main-blog-desc">
+													<img src="img/on-comand.jpg" alt="">
+													<h6>Тренинги</h6>
+													<h5>Включить команду</h5>
+													<p class="data-blog">27 июня 2016</p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias suscipit veniam ad nulla quos quibusdam modi, expedita at, velit quod rem itaque nobis, illo sit, quae atque pariatur architecto enim!</p>
+
+												</div>
+												<div class="row">
+													<div class="col-md-6 col-sm-6 col-xs-6">
+														<div class="coment">
+															<a href="#">12 комментариев</a>
+														</div>
+													</div>
+													<div class="col-md-6 col-sm-6 col-xs-6">
+														<div class="button-podrobnee">
+															<a class="podrobnee" href="#">Подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-md-6 col-sm-10 col-xs-12">
+												<div class="main-blog-desc">
+													<img src="img/on-comand.jpg" alt="">
+													<h6>Тренинги</h6>
+													<h5>Включить команду</h5>
+													<p class="data-blog">27 июня 2016</p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias suscipit veniam ad nulla quos quibusdam modi, expedita at, velit quod rem itaque nobis, illo sit, quae atque pariatur architecto enim!</p>
+
+												</div>
+												<div class="row">
+													<div class="col-md-6 col-sm-6 col-xs-6">
+														<div class="coment">
+															<a href="#">12 комментариев</a>
+														</div>
+													</div>
+													<div class="col-md-6 col-sm-6 col-xs-6">
+														<div class="button-podrobnee">
+															<a class="podrobnee" href="#">Подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+											<div class="row">
+											<div class="col-md-6 col-sm-10 col-xs-12">
+												<div class="main-blog-desc">
+													<img src="img/on-comand.jpg" alt="">
+													<h6>Тренинги</h6>
+													<h5>Включить команду</h5>
+													<p class="data-blog">27 июня 2016</p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias suscipit veniam ad nulla quos quibusdam modi, expedita at, velit quod rem itaque nobis, illo sit, quae atque pariatur architecto enim!</p>
+
+												</div>
+												<div class="row">
+													<div class="col-md-6 col-sm-6 col-xs-6">
+														<div class="coment">
+															<a href="#">12 комментариев</a>
+														</div>
+													</div>
+													<div class="col-md-6 col-sm-6 col-xs-6">
+														<div class="button-podrobnee">
+															<a class="podrobnee" href="#">Подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-md-6 col-sm-10 hidden-xs">
+												<div class="main-blog-desc">
+													<img src="img/on-comand.jpg" alt="">
+													<h6>Тренинги</h6>
+													<h5>Включить команду</h5>
+													<p class="data-blog">27 июня 2016</p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias suscipit veniam ad nulla quos quibusdam modi, expedita at, velit quod rem itaque nobis, illo sit, quae atque pariatur architecto enim!</p>
+
+												</div>
+												<div class="row">
+													<div class="col-md-6 col-sm-6">
+														<div class="coment">
+															<a href="#">12 комментариев</a>
+														</div>
+													</div>
+													<div class="col-md-6 col-sm-6">
+														<div class="button-podrobnee">
+															<a class="podrobnee" href="#">Подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+
+
+
+
+											<div class="row">
+											<div class="col-md-6 col-sm-10 hidden-xs">
+												<div class="main-blog-desc">
+													<img src="img/on-comand.jpg" alt="">
+													<h6>Тренинги</h6>
+													<h5>Включить команду</h5>
+													<p class="data-blog">27 июня 2016</p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias suscipit veniam ad nulla quos quibusdam modi, expedita at, velit quod rem itaque nobis, illo sit, quae atque pariatur architecto enim!</p>
+
+												</div>
+												<div class="row">
+													<div class="col-md-6 col-sm-6">
+														<div class="coment">
+															<a href="#">12 комментариев</a>
+														</div>
+													</div>
+													<div class="col-md-6 col-sm-6">
+														<div class="button-podrobnee">
+															<a class="podrobnee" href="#">Подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-md-6 col-sm-10 hidden-xs">
+												<div class="main-blog-desc">
+													<img src="img/on-comand.jpg" alt="">
+													<h6>Тренинги</h6>
+													<h5>Включить команду</h5>
+													<p class="data-blog">27 июня 2016</p>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias suscipit veniam ad nulla quos quibusdam modi, expedita at, velit quod rem itaque nobis, illo sit, quae atque pariatur architecto enim!</p>
+
+												</div>
+												<div class="row">
+													<div class="col-md-6 col-sm-6">
+														<div class="coment">
+															<a href="#">12 комментариев</a>
+														</div>
+													</div>
+													<div class="col-md-6 col-sm-6">
+														<div class="button-podrobnee">
+															<a class="podrobnee" href="#">Подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="row">
+											<div class="col-md-12 col-sm-12 col-xs-12">
+												<div class="load-more-events-blog">
+													<div class="load-more-events-button-blog">
+														<a class="load-more-events-button-blue-blog" href="#">загрузить больше событий</a>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+
+										<div class="row">
+											<div class="col-md-12 col-sm-12 col-xs-12">
+												<div class="item-list-blog">
+													<ul class="pager-blog">
+														<li class="pager-next last-blog"><a href="#" title="На следующую страницу"><img src="img/black-left-arrow.png" alt=""></a></li>
+														<li class="pager-item pager-active-blog"><a href="#" title="На страницу номер 2">1</a></li>
+														<li class="pager-item-blog"><a href="#" title="На страницу номер 2">2</a></li>
+														<li class="pager-item-blog"><a href="#" title="На страницу номер 3">3</a></li>
+														<li class="pager-item-blog"><a href="#" title="На страницу номер 4">...</a></li>
+														<li class="pager-item-blog"><a href="#" title="На страницу номер 4">4</a></li>
+														<li class="pager-item-blog"><a href="#" title="На страницу номер 4">5</a></li>
+														<li class="pager-item-blog"><a href="#" title="На страницу номер 4">6</a></li>
+														<li class="pager-next last-blog"><a href="#" title="На следующую страницу"><img src="img/blue-right-arrow.png" alt=""></a></li>
+
+													</ul>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</section>
+
+
+
+
+						<!-- Начало Футера -->
+						<footer>
+							<div class="main-footer">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-5 col-sm-5">
+											<h4>Подписка на рассылку</h4>
+											<form action="#">
+												<input placeholder="Введите e-mail" title="example@mail.com" pattern="\S+@[a-z]+[.]+[a-z]{1,}" required="" type="text">
+												<div class="form-submit">
+
+													<input value="подписаться" type="submit">
+													<img src="img/right.png" alt="">
+												</div>
+												<div class="clearfix"></div>
+											</form>
+										</div>
+										<div class="col-md-3 col-sm-3">
+											<div class="foot-contacts">
+												<a href="tel:+7 (499) 322-09-52"><p><img src="img/phone.png" alt="">+7 (499) 322-09-52</p></a>
+												<a href="mailto:someone@yoursite.com"><p><img src="img/mail.png" alt="">info@kuzavov.info</p></a>
+											</div>
+
+											<div class="foot-soc">
+												<a href="#"><img src="img/fb.png" alt=""></a>
+												<a href="#"><img src="img/twit.png" alt=""></a>
+												<a href="#"><img src="img/linkedin-logo.png" alt=""></a>
+												<a href="#"><img src="img/insta.png" alt=""></a>
+												<a href="#"><img src="img/youtube-symbol.png" alt=""></a>
+											</div>
+
+										</div>
+										<div class="col-md-2 col-sm-2 col-xs-5">
+											<ul>
+												<li><a href="index.html">Главная</a></li>
+												<li><a href="trainer.html">О тренере</a></li>
+												<li><a href="trening.html">События</a></li>
+
+											</ul>
+										</div>
+										<div class="col-md-2 col-sm-2 col-xs-5">
+											<ul>
+												<li><a href="#">Магазин</a></li>
+												<li><a href="#">Блог</a></li>
+												<li><a href="contacts.html">Контакты</a></li>
+
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12 col-xs-12">
+											<span>2016 © Команда Стаса Кузавова (технологии прорыва, продажи, мотивация, корпоративная культура, антикризисное управление)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</footer>
+						<!-- Библиотеки -->
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script
+	src="https://code.jquery.com/jquery-2.2.4.js"
+	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+	crossorigin="anonymous"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/maskedinput.js"></script>
+	<script src="js/jquery.es-drawermenu.js"></script>
+	<script>
+		function Calendar2(id, year, month) {
+			var Dlast = new Date(year,month+1,0).getDate(),
+			D = new Date(year,month,Dlast),
+			DNlast = new Date(D.getFullYear(),D.getMonth(),Dlast).getDay(),
+			DNfirst = new Date(D.getFullYear(),D.getMonth(),1).getDay(),
+			calendar = '<tr>',
+			month=["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"];
+			if (DNfirst != 0) {
+				for(var  i = 1; i < DNfirst; i++) calendar += '<td>';
+			}else{
+				for(var  i = 0; i < 6; i++) calendar += '<td>';
+			}
+		for(var  i = 1; i <= Dlast; i++) {
+			if (i == new Date().getDate() && D.getFullYear() == new Date().getFullYear() && D.getMonth() == new Date().getMonth()) {
+				calendar += '<td class="today">' + i;
+			}else{
+				calendar += '<td>' + i;
+			}
+			if (new Date(D.getFullYear(),D.getMonth(),i).getDay() == 0) {
+				calendar += '<tr>';
+			}
+		}
+		for(var  i = DNlast; i < 7; i++) calendar += '<td>&nbsp;';
+			document.querySelector('#'+id+' tbody').innerHTML = calendar;
+		document.querySelector('#'+id+' thead td:nth-child(2)').innerHTML = month[D.getMonth()] +' '+ D.getFullYear();
+		document.querySelector('#'+id+' thead td:nth-child(2)').dataset.month = D.getMonth();
+		document.querySelector('#'+id+' thead td:nth-child(2)').dataset.year = D.getFullYear();
+if (document.querySelectorAll('#'+id+' tbody tr').length < 6) {  // чтобы при перелистывании месяцев не "подпрыгивала" вся страница, добавляется ряд пустых клеток. Итог: всегда 6 строк для цифр
+	document.querySelector('#'+id+' tbody').innerHTML += '<tr><td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;';
+}
+}
+Calendar2("calendar2", new Date().getFullYear(), new Date().getMonth());
+// переключатель минус месяц
+document.querySelector('#calendar2 thead tr:nth-child(1) td:nth-child(1)').onclick = function() {
+	Calendar2("calendar2", document.querySelector('#calendar2 thead td:nth-child(2)').dataset.year, parseFloat(document.querySelector('#calendar2 thead td:nth-child(2)').dataset.month)-1);
+}
+// переключатель плюс месяц
+document.querySelector('#calendar2 thead tr:nth-child(1) td:nth-child(3)').onclick = function() {
+	Calendar2("calendar2", document.querySelector('#calendar2 thead td:nth-child(2)').dataset.year, parseFloat(document.querySelector('#calendar2 thead td:nth-child(2)').dataset.month)+1);
+}
+</script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

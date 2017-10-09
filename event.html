@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Одно событие</title>
+	<meta name="description" content="" />
+	<link rel="shortcut icon" href="http://dev2.pkizeev.adr.com.ua/img/favicon/favicon.ico" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/event.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/jquery.es-drawermenu.min.css">
+	<link rel="stylesheet" href="libs/OwlCarousel2/owl.carousel.min.css" />
+	<link rel="stylesheet" href="libs/OwlCarousel2/owl.theme.default.css" />
+	<link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" />
+</head>
+<body>
+
+
+	<!--Начало Хедера-->
+	<header>
+		<div class="top_line">
+			<div class="container">
+				<div class="row">
+					<!-- Емейл телефон -->
+
+					<div class="col-md-4 col-sm-6">
+						<div class="top-contacts">
+							<a href="tel:+7 (499) 322-09-52"><i class="fa fa-phone" aria-hidden="true"></i>
+								<span>+7 (499) 322-09-52</span></a>
+								<a href="mailto:someone@yoursite.com"><i class="fa fa-envelope" aria-hidden="true"></i>
+									<span>info@kuzavov.info</span></a>
+								</div>
+
+							</div>
+							<!-- Верхние иконки -->
+							<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+								<div class="top_icons">
+									<ul>
+										<li><a href="#"><img src="img/fb.png" alt="Стас Кузавов"></a></li>
+										<li><a href="#"><img src="img/twit.png" alt="Стас Кузавов"></a></li>
+										<li><a href="#"><img src="img/linkedin-logo.png" alt="Стас Кузавов"></a></li>
+										<li><a href="#"><img src="img/insta.png" alt="Стас Кузавов"></a></li>
+										<li><a href="#"><img src="img/youtube-symbol.png" alt="Стас Кузавов"></a></li>
+									</ul>	
+								</div>
+
+							</div>
+							<!-- Войти регистрация -->
+							<div class="col-md-4 hidden-xs">
+								<div class="top_buttons">
+									<ul>
+										<li><a href="#">Войти</a></li>
+										<li><a href="#">Зарегистрироваться</a></li>
+										
+									</ul>
+								</div>
+								<!-- Кнопка смены языка -->
+								<div class="top_language">
+									
+									<a class="dropdown-toggle-ru" href="#" title="Menu">RU <img src="img/top-pointer-down.png" alt=""></a>
+									<ul class="dropdown-ru">
+									  <li><a href="#">ua</a></li>
+									  <li><a href="#">fr</a></li>
+									  <li><a href="#">en</a></li>
+									</ul>
+									
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Главное меню -->
+				<div class="main-menu">
+					<div class="container">
+						<div class="row">
+							<!-- Логотип -->
+							<div class="col-md-3 col-sm-3 col-xs-8">
+								<div class="main_logo">
+									<a href="index.html"><img src="img/logo.png" alt=""></a>
+								</div>
+							</div>
+							<!-- Навигация -->
+
+							<div class="col-md-8 col-sm-8 hidden-xs">
+								<nav class="main_nav clearfix">
+									<ul>
+										<li><a href="index.html">Главная</a></li>
+										<li><a href="trainer.html">О тренере</a></li>
+										<li><a href="all-events.html">События</a></li>
+										<li><a href="event.html">Магазин</a></li>
+										<li><a href="blog.html">Блог</a></li>
+										<li><a href="contacts.html">Контакты</a></li>
+										<li class="nav_active"><a href="trening.html">Подкасты</a></li>
+									</ul>
+									
+								</nav>
+							</div>
+							<!-- Корзинка -->
+							<div class="col-md-1 col-sm-1">
+								<div class="basket_wrap hidden-xs">
+									<div class="basket">
+										<img src="img/basket.png" alt="корзина">
+										<span class="basket-item">2</span>
+									</div>
+
+								</div>
+								<section class="navbar-menu hidden-sm hidden-md hidden-lg">
+									<div class="menu-left clearfix">
+										<button class="main-mnu_button hamburger drawer-toggle hidden-md hidden-lg"><i class="fa fa-bars" aria-hidden="true"></i></button>
+										
+									</div>
+									
+									<nav class="drawermenu">
+										<button class="main-mnu_button arrow drawer-toggle hidden-md hidden-lg"><img src="img/menu-arrow.png" alt=""></button>
+										<ul>
+											<li><a href="index.html">Главная</a></li>
+											<li>
+												<a href="trainer.html">О Тренере</a>
+											</li>
+											<li><a href="all-events.html">События</a></li>
+											<li><a href="event.html">Магазин</a></li>
+											<li><a href="blog.html">Блог</a></li>
+											<li><a href="contacts.html">Контакты</a></li>
+											<li><a href="#"></a>
+												<div class="responsive-menu-top-button">
+													<button class="dropdown-toggle">
+													<span>RU</span>
+													<img src="img/down-black.png" alt="">
+
+												</button>
+												<ul class="responsive-menu-drop">
+													<li><a href="#">ua</a></li>
+									  <li><a href="#">fr</a></li>
+									  <li><a href="#">en</a></li>
+												</ul>
+												</div>
+											</li>
+											<li><div class="responsive-bottom-icons">
+												<ul>
+													<li><a href="#"><img src="img/fb-black.png" alt="Стас Кузавов"></a></li>
+													<li><a href="#"><img src="img/twit-black.png" alt="Стас Кузавов"></a></li>
+													<li><a href="#"><img src="img/linkedin-black.png" alt="Стас Кузавов"></a></li>
+													<li><a href="#"><img src="img/insta-black.png" alt="Стас Кузавов"></a></li>
+													<li><a href="#"><img src="img/youtube-play-black.png" alt="Стас Кузавов"></a></li>
+												</ul>	
+											</div></li>
+
+										</ul>
+									</nav>
+								</section>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+
+			</header>
+
+
+<section class="main-info-event">
+	
+	<div class="top-line-event">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<ul>
+						<li><a href="#">События</a></li>
+						<li><img src="img/blue-right-arrow.png" alt=""></li>
+						<li><a href="#"><span>Название события может быть длинным</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="main-content-event">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-1 hidden-sm col-xs-3">
+			<div class="digest-events">
+<a href="#"><p><span>15</span><br>января 2017</p>
+<a href="#"><h5>Время:</h5><h4>17:00</h4></a>
+<a href="#"><h5>Цена:</h5><h4>5000 <img src="img/rub.png" alt=""></h4></a>					
+	
+</a>
+				
+
+			</div>
+		</div>
+		<div class="owl-carousel-events visible-xs hidden-md hidden-lg hidden-sm">
+    <div><img src="img/coming-event.png" alt=""></div>
+   <div><img src="http://99px.ru/sstorage/53/2015/02/mid_121880_3485.jpg" alt=""></div>
+    <div><img src="http://www.statusyblog.ru/1/6/chudesa.jpeg" alt=""></div>
+</div>
+			<div class="col-md-4 hidden-sm hidden-xs col-xs-9">
+				
+			<div class="prod-gallery">
+
+ <a id="imgaaaa" href="img/coming-event.png" rel="lightbox-cats">
+    <img src="img/coming-event.png" alt="" style="    margin-top: 35px;
+    width: 100%;">
+ </a>
+
+ <a href="http://www.statusyblog.ru/1/6/chudesa.jpeg" rel="lightbox-cats">
+    <img id="img2" src="https://yt3.ggpht.com/-gCFkVogQ4v4/AAAAAAAAAAI/AAAAAAAAAAA/1UUqxrpYGJs/s100-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="" style="padding-top: 20px;
+    padding-right: 23px;
+    padding-left: 5px;">
+ </a>
+
+  <a  href="http://99px.ru/sstorage/53/2015/02/mid_121880_3485.jpg" rel="lightbox-cats">
+    <img id="img3" src="http://cogitoplanet.com/wp-content/uploads/2012/07/10055975_caeda4bb50bc2cbcfa8de8d01c136abc.gif" alt="" style="padding-top: 20px;
+    padding-right: 23px;">
+  </a>
+
+   <a href="img/ras-stas-1.jpg"  rel="lightbox-cats">
+      <img id="img4" src="img/stas-1.jpg" alt="" style="padding-top: 20px;">
+    </a>
+			</div>
+
+
+
+
+
+				<div class="clearfix"></div>
+				<div class="asside-menu-event visible-md visible-lg visible-sm hidden-xs">
+					<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%92%D1%8B%D0%B7%D0%BE%D0%B2+2017&dates=20170206T190000/20171231T210000&details=89778105315+%D0%90%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D0%B8%D1%8F&location&sprop=website:http://www.kuzavov.com&sf=true&output=xml#eventpage_6" class="add-calendar-button">
+					<img src="img/calendar.png" alt="">Добавить в календарь
+
+				</a>
+
+
+				<div class="clearfix"></div>
+				<form class="reg-form-notice-events" action="#">
+								<h1>Получать уведомление о событии</h1>
+								
+								
+								<input id="mail" title="example@mail.com" pattern="\S+@[a-z]+[.]+[a-z]{1,}" type="text" placeholder="Введите e-mail">
+								
+								<div class="submit-button-wrap-reg-form-notice-events">
+									<input class="submit-button-reg-form-notice-events" value="подписаться" type="submit">
+									<img src="img/form-pointer.png" alt="">
+								</div>
+				</form>
+				<div class="video-events">
+						
+						<a href="#"><img src="img/video-events.jpg" alt=""></a>
+					</div>
+					<div class="bottom-events-icon">
+						<ul>
+						<li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+						<li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+						<li><a href="#"><img src="img/linkedin-full.png" alt=""></a></li>
+						<li><a href="#" class="liked-events"><img src="img/star.png" alt="">Добавить в избранное</a></li>
+					</ul>
+					</div>
+				</div>
+				
+					
+			</div>
+
+			<div class="col-md-7 col-sm-12">
+				<h1>Как совершить прорыв в бизнесе?</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat impedit officia rerum assumenda neque cumque provident inventore harum. Provident quos vel libero unde vitae fugit dolore, error nisi sint. Praesentium.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat impedit officia rerum assumenda neque cumque provident inventore harum. Provident quos vel libero unde vitae fugit dolore, error nisi sint. Praesentium.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat impedit officia rerum assumenda neque cumque provident inventore harum. Provident quos vel libero unde vitae fugit dolore, error nisi sint. Praesentium.</p>
+
+				<div class="bottom-map-line">
+					<div class="row">
+
+					
+						<div class="col-md-4 col-xs-5">
+							<h2><img src="img/map-events.png" alt="">Киев</h2>
+						</div>
+						<div class="col-md-8 col-xs-7">
+							<p>бульвар Тараса Шевченка, 30, Киев, 01030</p>
+						</div>
+					</div>
+				</div>
+
+					<div class="row">
+						<div class="col-md-12 col-xs-12">
+						<div class="map-events">
+						
+						<iframe src="https://mapkit.io/embed/iGaeO1" frameborder="0" height="370" width="100%"></iframe>
+							<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.775908612159!2d30.502657615439222!3d50.445274579474656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef668ea954d%3A0xd09e280cafe8eed!2sH-tower%2C+Tarasa+Shevchenko+Blvd%2C+30%2C+Kyiv%2C+01030!5e0!3m2!1sen!2sua!4v1486467495163" width="100%" height="370" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+						</div>
+								
+							
+						</div>
+					</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat impedit officia rerum assumenda neque cumque provident inventore harum. Provident quos vel libero unde vitae fugit dolore, error nisi sint. Praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat impedit officia rerum assumenda neque cumque provident inventore harum. Provident quos vel libero unde vitae fugit dolore, error nisi sint. Praesentium.</p>
+
+<div class="register-for-trening">Регистрация на тренинг</div>
+<form class="reg-form-events" action="123">
+
+						<label for="name">Имя и фамилия</label>
+						<input id="name" required="" type="text">
+						<label for="phone">Телефон</label>
+						<input id="phone" required="" type="tel">
+						<label for="mail">E-mail</label>
+						<input id="mail" title="example@mail.com" pattern="\S+@[a-z]+[.]+[a-z]{1,}" type="text">
+						<div class="submit-button-wrap-events">
+							<input class="submit-button-events" value="регистрация" type="submit">
+							<img src="img/form-pointer.png" alt="">
+						</div>
+						<p>Подтверждение регистрации<br>придет Вам на почту</p>
+					</form>
+					<div class="asside-menu-event hidden-md hidden-lg visible-sm visible-xs">
+					<a href="#" class="add-calendar-button">
+					<img src="img/calendar.png" alt="">Добавить в календарь
+				</a>
+
+
+				<div class="clearfix"></div>
+				<form class="reg-form-notice-events" action="#">
+								<h1>Получать уведомление о событии</h1>
+								
+								
+								<input id="mail" title="example@mail.com" pattern="\S+@[a-z]+[.]+[a-z]{1,}" type="text" placeholder="Введите e-mail">
+								
+								<div class="submit-button-wrap-reg-form-notice-events">
+									<input class="submit-button-reg-form-notice-events" value="подписаться" type="submit">
+									<img src="img/form-pointer.png" alt="">
+								</div>
+				</form>
+				<div class="video-events">
+						
+						<a href="#"><img src="img/video-events.jpg" alt=""></a>
+					</div>
+					<div class="bottom-events-icon">
+						<ul>
+						<li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+						<li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+						<li><a href="#"><img src="img/linkedin-full.png" alt=""></a></li>
+						<li><a href="#" class="liked-events"><img src="img/star.png" alt="">Добавить в избранное</a></li>
+					</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+	
+	
+
+
+
+
+</section>
+
+
+
+
+
+
+<!-- Начало Футера -->
+			<footer>
+				<div class="main-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5 col-sm-5">
+								<h4>Подписка на рассылку</h4>
+								<form action="#">
+									<input placeholder="Введите e-mail" title="example@mail.com" pattern="\S+@[a-z]+[.]+[a-z]{1,}" required="" type="text">
+									<div class="form-submit">
+										
+										<input value="подписаться" type="submit">
+										<img src="img/right.png" alt="">
+									</div>
+									<div class="clearfix"></div>
+								</form>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="foot-contacts">
+									<a href="tel:+7 (499) 322-09-52"><p><img src="img/phone.png" alt="">+7 (499) 322-09-52</p></a>
+									<a href="mailto:someone@yoursite.com"><p><img src="img/mail.png" alt="">info@kuzavov.info</p></a>
+								</div>
+
+								<div class="foot-soc">
+									<a href="#"><img src="img/fb.png" alt=""></a>
+									<a href="#"><img src="img/twit.png" alt=""></a>
+									<a href="#"><img src="img/linkedin-logo.png" alt=""></a>
+									<a href="#"><img src="img/insta.png" alt=""></a>
+									<a href="#"><img src="img/youtube-symbol.png" alt=""></a>
+								</div>
+
+							</div>
+							<div class="col-md-2 col-sm-2 col-xs-5">
+											<ul>
+												<li><a href="index.html">Главная</a></li>
+												<li><a href="trainer.html">О тренере</a></li>
+												<li><a href="trening.html">События</a></li>
+												
+											</ul>
+										</div>
+										<div class="col-md-2 col-sm-2 col-xs-5">
+											<ul>
+												<li><a href="#">Магазин</a></li>
+												<li><a href="#">Блог</a></li>
+												<li><a href="contacts.html">Контакты</a></li>
+												
+											</ul>
+										</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<span>2016 © Команда Стаса Кузавова (технологии прорыва, продажи, мотивация, корпоративная культура, антикризисное управление)</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</footer>
+			<!-- Библиотеки -->
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/maskedinput.js"></script>
+	<script src="js/jquery.es-drawermenu.js"></script>
+	<script src="libs/OwlCarousel2/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/slimbox2.js"></script>
+
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

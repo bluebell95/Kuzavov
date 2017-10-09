@@ -1,0 +1,827 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700');
+*::-webkit-input-placeholder {
+	color: #000;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #000;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #000;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #000;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoThin",sans-serif;
+}
+
+header {
+	background-image: url(../img/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+
+/*Основная информация в хедере*/
+.main-head {
+
+    height: 520px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.main-head h1 {
+    font-size: 74px;
+    margin-top: 90px;
+    line-height: 58px;
+    margin-bottom: 30px;
+    font-family: "RobotoBold";
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.main-head h3 {
+    font-size: 30px;
+    font-family: "RobotoRegular";
+    color: #fff;
+    background-color: #296cd2;
+    display: inline-block;
+    line-height: .8;
+    padding: 7px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.main-head p {
+    font-size: 16px;
+    line-height: 1.563;
+    margin-bottom: 30px;
+    font-family: "RobotoRegular";
+}
+
+
+
+/*Главная кнопка подробнее*/
+.main-button {
+    background-color: #296cd2;
+    color: #fff;
+    font-size: 1em;
+    font-family: "RobotoBold";
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.main-button:hover {
+    background-color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.main-head a {
+	font-family: "RobotoBold", sans-serif;
+	font-size: 16px;
+}
+
+.main-head .main-button {
+  width: 152px;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.main-head .main-button i {
+    margin-left: 10px;
+
+    position: relative;
+    top: 1px;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    font-size: 20px;
+}
+
+/*Фото Стаса*/
+.main_photo {
+    height: 520px;
+    position: relative;
+}
+
+.main_photo img {
+    position: absolute;
+    bottom: 0;
+    vertical-align: middle;
+    z-index: 0;
+}
+
+/*Нижняя полоска хедера*/
+.bottom_line {
+    height: 60px;
+    background-color: #000;
+}
+
+.bottom_line ul {
+    margin: 0;
+    padding: 5px 0 0 40px;
+    color: #fff;
+    list-style-type: none;
+}
+
+.bottom_line li {
+    font-size: 36px;
+    font-family: "Rubik",sans-serif;
+    display: inline-block;
+    font-weight: 300;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.bottom_line li span {
+    width: 8px;
+    position: relative;
+    top: -2px;
+    height: 8px;
+    background-color: #296cd2;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 133px 0 110px;
+}
+
+
+/*Основная секция*/
+.main-section {
+	min-height: 470px;
+    }.main-section h2 {
+        font-family: "Rubik",sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        padding-bottom: 42px;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    .main-section h2:after {
+        -ms-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        background-color: #296cd2;
+        bottom: 0;
+        height: 6px;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 94px;
+        content: "";
+    }
+
+
+    .line {
+       margin-top: 10px;
+   }
+   .line img {
+       margin-top: 10px;
+       vertical-align: middle;
+   }
+
+   .line h3 {
+       font-size: 16px;
+       text-transform: uppercase;
+       font-family: "RobotoBold";
+       color: #000;
+       line-height:1.5;
+       text-align:left;
+
+   }
+
+
+
+/*Секция прокачай свою команду*/
+
+   .experience-team {
+    min-height: 555px;
+    position: relative;
+    z-index: 1;
+    background-image: url(../img/bg-section.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+.photo-stas {
+    height: 460px;
+    position: relative;
+}
+
+.photo-stas img {
+    bottom: 0;
+    position: absolute;
+    vertical-align: middle;
+}
+
+.experience {
+	margin-top: 20px;
+}
+
+.experience-team h4 {
+	font-size: 26px;
+	font-family: "RobotoBold", sans-serif;
+	text-transform: uppercase;
+	color:#296cd2;
+	margin: 0;
+	
+}
+
+.experience-team span {
+	font-size: 52px;
+	font-family: "Roboto Black", sans-serif;
+	text-transform: uppercase;
+	color:#fff;
+	margin: 0;
+	padding: 0;
+}
+
+.experience-team p {
+	font-size: 21px;
+	font-family: "RobotoLight", sans-serif;
+	text-transform: lowercase;
+	color:#fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+.exp-team {
+	background-image: url(../img/exp-team_bottom_line.png);
+	min-height: 95px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+.exp-team h5 {
+	font-size: 36px;
+	font-family: "RobotoLight", sans-serif;
+	color:#fff;
+	text-align: center; 
+    line-height: 95px;
+    margin: 0;
+}
+
+.exp-team a {
+    font-size: 22px;
+    height: 48px;
+    line-height: 48px;
+    margin-left: 75px;
+    top: -4px;
+    width: 134px;
+    font-family: "RobotoBold";
+    text-transform: uppercase;
+    padding: 10px 25px;
+}
+
+.interest-inform {
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+.video-wrap {
+    height: 428px;
+    position: relative;
+}
+
+.video-wrap .play-video {
+    -ms-transform: translate(-50%,-50%);
+    -webkit-border-radius: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    border-radius: 100%;
+    cursor: pointer;
+    height: 84px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 84px;
+}
+.video-wrap .play-video:hover {
+    background-color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.video-wrap img {
+    width: 100%;
+    border:0;
+    vertical-align: middle;
+    
+}
+
+
+
+.brand {
+	width: 100%;
+	background-color: #e5e5e5;
+	min-height: 190px;
+	line-height: 190px;
+}
+
+.main-brands {
+	
+}
+.main-brands ul {
+	list-style-type: none;
+}
+.main-brands li {
+	display: inline-block;
+	padding-right: 55px;
+}
+
+.main-brands img {
+	vertical-align: middle;
+}
+
+
+.event {
+	background-image: url(../img/event-section.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 560px;
+}
+
+.coming-event{
+	position: relative;
+    cursor: pointer;
+}
+.coming-event img{
+    width: 100%;
+    cursor: pointer;
+}
+.coming-event span {
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.2;
+    padding: 8px 11px;
+    position: absolute;
+    font-family: "RobotoRegular", sans-serif;
+
+}
+
+.event-description {
+	position: relative;
+}
+.event-description:after {
+    background-color: #296cd2;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    width: 2px;
+}
+.book-first:after, .event-description:after, .main-footer li:before{
+    content: '';
+}
+
+.event-description h3 {
+    font-size: 36px;
+    font-family: "RobotoLight", sans-serif;
+    line-height: 40px;
+    margin: -7px 0 0;
+    margin-bottom: 32px;
+}
+.car img {
+    width: 100%;
+
+}
+.event-description span {
+    background-color: #e5e5e5;
+    color: #296cd2;
+    font-size: 24px;
+    font-family: "RobotoRegular", sans-serif;
+    margin-bottom: 17px;
+    
+    padding: 2px 9px;
+}
+
+
+.event-description a {
+    display: block;
+    font-size: 16px;
+    font-family: "RobotoBold", sans-serif;
+    height: 40px;
+    line-height: 38px;
+    margin-top: 19px;
+    padding-left: 29px;
+    position: relative;
+    width: 170px;
+}
+
+.event-description a i {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+.event-button {
+	margin-top: 50px;
+}
+
+.blue-button {
+    background-color: #296cd2;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.blue-button:hover {
+    background-color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.event-description .transparent-button {
+    -webkit-border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: #000;
+}
+
+.transparent-button:hover {
+    border: 1px solid #3887ff;
+    color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.event-first img {
+    width: 100%;
+    cursor: pointer;
+}
+.event-second img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.events-today h4 {
+
+    font-size: 23px;
+    font-family: "RobotoRegular", sans-serif;
+    line-height: 1.125;
+    margin: -3px 0 0;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+
+.events-today span {
+    background-color: #e5e5e5;
+    bottom: 0;
+    color: #296cd2;
+    font-size: 18px;
+    padding: 3px 6px;
+    position: absolute;
+    font-family: "RobotoRegular", sans-serif;
+}
+
+
+.event-second {
+	margin-top: 80px;
+}
+
+.individual {
+	min-height: 750px;
+}
+
+.trainer {
+	position: relative;
+    z-index: 1;
+}
+
+.trainer h3 {
+    font-size: 52px;
+    line-height: 40px;
+    margin: 0;
+    font-family: "RobotoBold", sans-serif;
+    color: #000;
+}
+
+.trainer p {
+    color: #296cd2;
+    font-size: 24px;
+    font-family: "RobotoLight", sans-serif;
+    line-height: 30px;
+    margin-bottom: 21px;
+}
+
+.trainer span {
+    font-family: "RobotoBold", sans-serif;
+    color: #296cd2;
+    font-size: 31px;
+    padding: 6px 0px;
+}
+.trainer span:hover {
+    text-decoration: underline;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.trainer img {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 0;
+    
+}
+
+
+
+.reg-form {
+    background-color: #e5e5e5;
+    padding: 20px 47px 0;
+}
+
+.reg-form label {
+    display: inline-block;
+    font-size: 18px;
+    font-family: "RobotoLight", sans-serif;
+    padding: 14px 0;
+    color: #000;
+}
+
+
+.reg-form input {
+    -webkit-border-radius: 3px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    margin: 0 auto;
+    outline: 0;
+    padding-left: 10px;
+    width: 100%;
+}
+.reg-form .submit-button-wrap {
+    margin: 0 auto;
+    position: relative;
+    width: 170px;
+}
+
+
+.reg-form p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    padding: 35px 0;
+    text-align: center;
+    font-family: "RobotoLight", sans-serif;
+    color: #000;
+}
+
+.reg-form .submit-button {
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    height: auto;
+    margin-top: 45px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-top: 7px;
+    text-align: left;
+    width: 170px;
+    background-color: #296cd2;
+    font-family: "RobotoBold", sans-serif;
+}
+
+.submit-button:hover {
+    background-color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.reg-form .submit-button-wrap img {
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    position: absolute;
+    right: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+.books {
+	min-height: 615px;
+	background-image: url(../img/books-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+
+
+.book-first img {
+
+}
+.desc-book span {
+    font-size: 18px;
+    font-family: "RobotoRegular", sans-serif;
+    margin-bottom: 10px;
+}
+.desc-book p {
+	font-size: 54px;
+	font-family: "RobotoRegular", sans-serif;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 18px;
+}
+
+
+.desc-book a {
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    width: 138px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-family: "RobotoBold";
+}
+
+
+.books-text h5 {
+	font-family: "Roboto Medium",sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	margin:0;
+}
+
+.books-text h6 {
+	font-size: 18px;
+	font-family: "RobotoLight", sans-serif;
+	line-height: 1.5;
+	margin:0;
+	margin-top: 10px;
+}
+
+.books-text p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin:0;
+	margin-top: 20px;
+	font-family: "RobotoRegular", sans-serif;
+    margin-bottom: 28px;
+}
+
+.books-text span {
+    color: #296cd2;
+}
+.books-text a {
+    color: #000;
+    font-size: 18px;
+    
+    font-family: "RobotoRegular", sans-serif;
+    margin:0;
+    margin-top: 10px;
+}
+.books-text a:hover {
+    text-decoration: underline;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.book-first {
+	margin-bottom: 15px;
+}
+
+
+
+.owl-carousel
+{
+	
+}
+.owl-carousel
+{
+	-webkit-transition:opacity .4s ease;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	height:100%;
+	opacity:0;
+	transition:opacity .4s ease;
+}
+
+
+#carousel .item-text,#carousel .owl-dots .active,.video-wrap .play-video
+{
+	background-color:#296cd2;
+}
+#carousel .item
+{
+	position:relative;
+}
+
+#carousel .item-text
+{
+	bottom:0;
+	left:0;
+	padding:3px 0;
+	position:absolute;
+	width:100%;
+}
+
+#carousel .item-text h5
+{
+	color:#fff;
+	font-size:30px;
+	font-family: "RobotoLight", sans-serif;
+	text-transform: uppercase;
+	line-height:1.2;
+	margin:0;
+	padding-left:14px;
+}
+
+#carousel .item-text p
+{
+	color:#85b5ff;
+	font-size:18px;
+	font-family: "RobotoBold", sans-serif;
+	margin:0;
+	padding-left:14px;
+}
+
+#carousel .owl-dots
+{
+	bottom:74px;
+	position:absolute;
+	right:9px;
+}
+
+#carousel .owl-dots .owl-dot
+{
+	-webkit-border-radius:100%;
+	border:2px solid #296cd2;
+	border-radius:100%;
+	display:inline-block;
+	height:20px;
+	margin:0 5px;
+	width:20px;
+}
+
+.owl-carousel
+{
+	display:none;
+	position:relative;
+	width:100%;
+	z-index:1;
+}
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+
+
+
+
+.main-mnu_button {
+    border: medium none;
+    background-color: transparent;
+    font-size:40px;
+    margin-top: 20px;
+}
+
+.main-mnu_button {
+    color: #296cd2;
+
+    
+}
+.menu-left {
+    float: right;
+
+}

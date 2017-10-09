@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>События</title>
+	<meta name="description" content="" />
+	<link rel="shortcut icon" href="http://dev2.pkizeev.adr.com.ua/img/favicon/favicon.ico" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/all-events.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/jquery.es-drawermenu.min.css">
+</head>
+<body>
+
+
+	<!--Начало Хедера-->
+	<header>
+		<div class="top_line">
+			<div class="container">
+				<div class="row">
+					<!-- Емейл телефон -->
+
+					<div class="col-md-4 col-sm-6">
+						<div class="top-contacts">
+							<a href="tel:+7 (499) 322-09-52"><i class="fa fa-phone" aria-hidden="true"></i>
+								<span>+7 (499) 322-09-52</span></a>
+								<a href="mailto:someone@yoursite.com"><i class="fa fa-envelope" aria-hidden="true"></i>
+									<span>info@kuzavov.info</span></a>
+								</div>
+
+							</div>
+							<!-- Верхние иконки -->
+							<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+								<div class="top_icons">
+									<ul>
+										<li><a href="#"><img src="img/fb.png" alt="Стас Кузавов"></a></li>
+										<li><a href="#"><img src="img/twit.png" alt="Стас Кузавов"></a></li>
+										<li><a href="#"><img src="img/linkedin-logo.png" alt="Стас Кузавов"></a></li>
+										<li><a href="#"><img src="img/insta.png" alt="Стас Кузавов"></a></li>
+										<li><a href="#"><img src="img/youtube-symbol.png" alt="Стас Кузавов"></a></li>
+									</ul>	
+								</div>
+
+							</div>
+							<!-- Войти регистрация -->
+							<div class="col-md-4 hidden-xs">
+								<div class="top_buttons">
+									<ul>
+										<li><a href="#">Войти</a></li>
+										<li><a href="#">Зарегистрироваться</a></li>
+										
+									</ul>
+								</div>
+								<!-- Кнопка смены языка -->
+								<div class="top_language">
+									
+									<a class="dropdown-toggle-ru" href="#" title="Menu">RU <img src="img/top-pointer-down.png" alt=""></a>
+									<ul class="dropdown-ru">
+									  <li><a href="#">ua</a></li>
+									  <li><a href="#">fr</a></li>
+									  <li><a href="#">en</a></li>
+									</ul>
+									
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Главное меню -->
+				<div class="main-menu">
+					<div class="container">
+						<div class="row">
+							<!-- Логотип -->
+							<div class="col-md-3 col-sm-3 col-xs-8">
+								<div class="main_logo">
+									<a href="index.html"><img src="img/logo.png" alt=""></a>
+								</div>
+							</div>
+							<!-- Навигация -->
+
+							<div class="col-md-8 col-sm-8 hidden-xs">
+								<nav class="main_nav clearfix">
+									<ul>
+										<li><a href="index.html">Главная</a></li>
+										<li><a href="trainer.html">О тренере</a></li>
+										<li class="nav_active"><a href="all-events.html">События</a></li>
+										<li><a href="event.html">Магазин</a></li>
+										<li><a href="blog.html">Блог</a></li>
+										<li><a href="contacts.html">Контакты</a></li>
+										<li><a href="trening.html">Подкасты</a></li>
+									</ul>
+									
+								</nav>
+							</div>
+							<!-- Корзинка -->
+							<div class="col-md-1 col-sm-1">
+								<div class="basket_wrap hidden-xs">
+									<div class="basket">
+										<img src="img/basket.png" alt="корзина">
+										<span class="basket-item">2</span>
+									</div>
+
+								</div>
+								<section class="navbar-menu hidden-sm hidden-md hidden-lg">
+									<div class="menu-left clearfix">
+										<button class="main-mnu_button hamburger drawer-toggle hidden-md hidden-lg"><i class="fa fa-bars" aria-hidden="true"></i></button>
+										
+									</div>
+									
+									<nav class="drawermenu">
+										<button class="main-mnu_button arrow drawer-toggle hidden-md hidden-lg"><img src="img/menu-arrow.png" alt=""></button>
+										<ul>
+											<li><a href="index.html">Главная</a></li>
+											<li>
+												<a href="trainer.html">О Тренере</a>
+											</li>
+											<li><a href="all-events.html">События</a></li>
+											<li><a href="event.html">Магазин</a></li>
+											<li><a href="blog.html">Блог</a></li>
+											<li><a href="contacts.html">Контакты</a></li>
+											<li><a href="#"></a>
+												<div class="responsive-menu-top-button">
+													<button class="dropdown-toggle">
+													<span>RU</span>
+													<img src="img/down-black.png" alt="">
+
+												</button>
+												<ul class="responsive-menu-drop">
+													<li><a href="#">ua</a></li>
+									  <li><a href="#">fr</a></li>
+									  <li><a href="#">en</a></li>
+												</ul>
+												</div>
+											</li>
+											<li><div class="responsive-bottom-icons">
+												<ul>
+													<li><a href="#"><img src="img/fb-black.png" alt="Стас Кузавов"></a></li>
+													<li><a href="#"><img src="img/twit-black.png" alt="Стас Кузавов"></a></li>
+													<li><a href="#"><img src="img/linkedin-black.png" alt="Стас Кузавов"></a></li>
+													<li><a href="#"><img src="img/insta-black.png" alt="Стас Кузавов"></a></li>
+													<li><a href="#"><img src="img/youtube-play-black.png" alt="Стас Кузавов"></a></li>
+												</ul>	
+											</div></li>
+
+										</ul>
+									</nav>
+								</section>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+
+			</header>
+
+
+
+
+<section class="main-info-all-events">
+
+				<div class="info-all-events">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="all-events-polosa">
+									<h2>События</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="all-events-description">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-1 col-sm-2 col-xs-3">
+								<div class="digest-all-events">
+									<a href="#"><p><span>15</span><br>января 2017</p>
+									<a href="#"><h5>Время:</h5><h4>17:00</h4></a>
+									<a href="#"><h5>Цена:</h5><h4>5000 <img src="img/rub.png" alt=""></h4></a>	
+									</a>
+								</div>
+							</div>
+
+							<div class="col-md-4 col-sm-10 col-xs-9">
+								<div class="coming-all-event">
+						<span>Ближайшее</span>
+						<a href="#"><img src="img/coming-event.png" alt="event"></a>
+					</div>
+							</div>
+
+							<div class="col-md-6 col-sm-12 col-xs-12">
+								<a href="#"><h1>Как совершить прорыв в бизнесе?</h1></a>
+								<div class="bottom-map-line">
+									<div class="row">
+
+									
+										<div class="col-md-4 col-sm-4 col-xs-5">
+											<h3><img src="img/map-events.png" alt="">Киев</h3>
+										</div>
+										<div class="col-md-8 col-sm-8 col-xs-7">
+											<p>бульвар Тараса Шевченка, 30, Киев, 01030</p>
+										</div>
+									</div>
+								</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat impedit officia rerum assumenda neque cumque provident inventore harum. Provident quos vel libero unde vitae fugit dolore, error nisi sint. Praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat impedit officia rerum assumenda neque cumque provident inventore harum. Provident quos vel libero unde vitae fugit dolore, error nisi sint. Praesentium.</p>
+<div class="main-button-all-events">
+	<div class="all-events-button">
+		<a class="all-events-blue-button" href="#">регистрация <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		<a class="all-events-transparent-button" href="#">подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+	</div>
+</div>
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+
+<div class="information-all-events">
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1 hidden-sm hidden-xs"></div>
+			<div class="col-md-1 col-sm-2 col-xs-3">
+				<div class="digest polosa1">
+									<a href="#"><p><span>15</span><br>января 2017</p>	
+									</a>
+								</div>
+			</div>
+
+			<div class="col-md-10 col-sm-10 col-xs-9">
+				<div class="row">
+					<div class="col-md-3 col-sm-10 col-xs-12">
+						<a href="#"><img src="http://www.ayzdorov.ru/images/Travi/odyvanchik.jpg" alt=""></a>
+					</div>
+					<div class="col-md-9 col-sm-10 col-xs-12">
+						<a href="#"><h4>Название события может быть длинным</h4></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum natus cum est deserunt, quia labore ipsa alias neque dignissimos repellendus sit dicta tempora rerum voluptatem eius tenetur aliquid illum ut.
+							Lorem ipsum dolor sit</p>
+							<div class="button-all-events">
+								<div class="all-events-button">
+									<a class="all-events-trans-button" href="#">подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+								</div>
+							</div>
+					</div>
+				</div>
+				<hr>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1 hidden-sm hidden-xs"></div>
+			<div class="col-md-1 col-sm-2 col-xs-3">
+			<div class="digest polosa2">
+									<a href="#"><p><span>15</span><br>января 2017</p>	
+									</a>
+								</div>
+								</div>
+
+			<div class="col-md-10 col-sm-10 col-xs-9">
+				<div class="row">
+					<div class="col-md-3 col-sm-10 col-xs-12">
+						<a href="#"><img src="http://www.ayzdorov.ru/images/Travi/odyvanchik.jpg" alt=""></a>
+					</div>
+					<div class="col-md-9 col-sm-10 col-xs-12">
+						<a href="#"><h4>Название события может быть длинным</h4></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum natus cum est deserunt, quia labore ipsa alias neque dignissimos repellendus sit dicta tempora rerum voluptatem eius tenetur aliquid illum ut.
+							Lorem ipsum dolor sit</p>
+							<div class="button-all-events">
+								<div class="all-events-button">
+									<a class="all-events-trans-button" href="#">подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+								</div>
+							</div>
+					</div>
+				</div>
+				<hr>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1 hidden-sm hidden-xs"></div>
+			<div class="col-md-1 col-sm-2 col-xs-3">
+			<div class="digest">
+									<a href="#"><p><span>15</span><br>января 2017</p>	
+									</a>
+								</div>
+			</div>
+
+			<div class="col-md-10 col-sm-10 col-xs-9">
+				<div class="row">
+					<div class="col-md-3 col-sm-10 col-xs-12">
+						<a href="#"><img src="http://www.ayzdorov.ru/images/Travi/odyvanchik.jpg" alt=""></a>
+					</div>
+					<div class="col-md-9 col-sm-10 col-xs-12">
+						<a href="#"><h4>Название события может быть длинным</h4></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum natus cum est deserunt, quia labore ipsa alias neque dignissimos repellendus sit dicta tempora rerum voluptatem eius tenetur aliquid illum ut.
+							Lorem ipsum dolor sit</p>
+							<div class="button-all-events">
+								<div class="all-events-button">
+									<a class="all-events-trans-button" href="#">подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+								</div>
+							</div>
+					</div>
+				</div>
+				<hr>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="load-more-events">
+					<div class="load-more-events-button">
+						<a class="load-more-events-button-blue" href="#">загрузить больше событий</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				  <div class="item-list">
+   <ul class="pager">
+   <li class="pager-next last"><a href="#" title="На следующую страницу"><img src="img/black-left-arrow.png" alt=""></a></li>
+    <li class="pager-item pager-active"><a href="#" title="На страницу номер 2">1</a></li>
+    <li class="pager-item"><a href="#" title="На страницу номер 2">2</a></li>
+    <li class="pager-item"><a href="#" title="На страницу номер 3">3</a></li>
+    <li class="pager-item"><a href="#" title="На страницу номер 4">...</a></li>
+    <li class="pager-item"><a href="#" title="На страницу номер 4">4</a></li>
+    <li class="pager-item"><a href="#" title="На страницу номер 4">5</a></li>
+    <li class="pager-item"><a href="#" title="На страницу номер 4">6</a></li>
+    <li class="pager-next last"><a href="#" title="На следующую страницу"><img src="img/blue-right-arrow.png" alt=""></a></li>
+
+   </ul>
+  </div>
+			</div>
+		</div>
+	</div>
+
+</div>
+				
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- Начало Футера -->
+			<footer>
+				<div class="main-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5 col-sm-5">
+								<h4>Подписка на рассылку</h4>
+								<form action="#">
+									<input placeholder="Введите e-mail" title="example@mail.com" pattern="\S+@[a-z]+[.]+[a-z]{1,}" required="" type="text">
+									<div class="form-submit">
+										
+										<input value="подписаться" type="submit">
+										<img src="img/right.png" alt="">
+									</div>
+									<div class="clearfix"></div>
+								</form>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="foot-contacts">
+									<a href="tel:+7 (499) 322-09-52"><p><img src="img/phone.png" alt="">+7 (499) 322-09-52</p></a>
+									<a href="mailto:someone@yoursite.com"><p><img src="img/mail.png" alt="">info@kuzavov.info</p></a>
+								</div>
+
+								<div class="foot-soc">
+									<a href="#"><img src="img/fb.png" alt=""></a>
+									<a href="#"><img src="img/twit.png" alt=""></a>
+									<a href="#"><img src="img/linkedin-logo.png" alt=""></a>
+									<a href="#"><img src="img/insta.png" alt=""></a>
+									<a href="#"><img src="img/youtube-symbol.png" alt=""></a>
+								</div>
+
+							</div>
+							<div class="col-md-2 col-sm-2 col-xs-5">
+											<ul>
+												<li><a href="index.html">Главная</a></li>
+												<li><a href="trainer.html">О тренере</a></li>
+												<li><a href="trening.html">События</a></li>
+												
+											</ul>
+										</div>
+										<div class="col-md-2 col-sm-2 col-xs-5">
+											<ul>
+												<li><a href="#">Магазин</a></li>
+												<li><a href="#">Блог</a></li>
+												<li><a href="contacts.html">Контакты</a></li>
+												
+											</ul>
+										</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<span>2016 © Команда Стаса Кузавова (технологии прорыва, продажи, мотивация, корпоративная культура, антикризисное управление)</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</footer>
+			<!-- Библиотеки -->
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/maskedinput.js"></script>
+	<script src="js/jquery.es-drawermenu.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

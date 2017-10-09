@@ -1,0 +1,222 @@
+body {
+	font-family: "RobotoThin";
+}
+
+
+/*Контакты*/
+
+.main-info-contacts h2 {
+    font-family: "RobotoBold", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 40px;
+
+    position: relative;
+    text-align: left;
+    color: #000;
+}
+
+.main-info-contacts h2:after {
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    background-color: #296cd2;
+    bottom: -40px;
+    height: 6px;
+    left: 49px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 94px;
+    content: "";
+}
+
+
+.reg-form-contacts {
+    background-color: #e5e5e5;
+    padding: 20px 47px 0;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    padding-bottom: 10px;
+}
+.reg-form-contacts span {
+    color:#296cd2;
+}
+
+.reg-form-contacts label {
+    display: inline-block;
+    font-size: 18px;
+    font-family: "RobotoLight", sans-serif;
+    padding: 14px 0;
+    color: #000;
+}
+
+
+.reg-form-contacts input {
+    -webkit-border-radius: 3px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    margin: 0 auto;
+    outline: 0;
+    padding-left: 10px;
+    width: 100%;
+}
+.reg-form-contacts textarea {
+    -webkit-border-radius: 3px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    display: block;
+    font-size: 18px;
+    height: 150px;
+    margin: 0 auto;
+    outline: 0;
+    padding-left: 10px;
+    width: 100%;
+}
+
+
+
+.reg-form-contacts .submit-button-wrap-contacts {
+    margin: 0 auto;
+    position: relative;
+    width: 170px;
+    margin-bottom: 20px;
+}
+.submit-button-wrap-contacts input:hover {
+    background-color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.reg-form-contacts h1 {
+    font-size: 24px;
+    font-family: "RobotoLight", sans-serif;
+    color: #000;
+}
+
+
+.reg-form-contacts .submit-button-contacts {
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    height: auto;
+    margin-top: 45px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-top: 7px;
+    text-align: left;
+    width: 170px;
+    background-color: #296cd2;
+    font-family: "RobotoBold", sans-serif;
+}
+
+.reg-form-contacts .submit-button-wrap-contacts img {
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    position: absolute;
+    right: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.reg-form-contacts p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    padding: 35px 0;
+    text-align: center;
+    font-family: "RobotoLight", sans-serif;
+    color: #000;
+}
+
+
+.stas-contacts {
+    padding-left: 35px;
+    padding-top: 25px;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+
+.stas-contacts a {
+    color: #000000;
+}
+.stas-contacts a:hover {
+    text-decoration: underline;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+
+.stas-contacts p {
+    padding: 18px 0 18px 35px;
+    position: relative;
+    font-size: 14px;
+    font-family: "RobotoThin", sans-serif;
+    
+}
+.stas-contacts p img {
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.stas-contacts-soc {
+    padding-left: 35px;
+    padding-top: 10px;
+    text-align: left;
+    padding-bottom: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.stas-contacts-soc a {
+    display: inline-block;
+    font-size: 0;
+    margin-right: 18px;
+    vertical-align: bottom;
+    z-index: 1;
+}
+
+
+
+.stas-photo-contacts {
+    height: 745px;
+    position: relative;
+}
+
+.stas-photo-contacts img {
+    position: absolute;
+    bottom: -50px;
+    vertical-align: middle;
+    z-index: 0;
+    right: -21px;
+}
+
+.top_icons {
+    position: relative;
+    z-index: 1;
+}
+
+
+/*контакты*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700');
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+    
+}
+body input:required:valid,
+body textarea:required:valid {
+    
+}
+
+
+
+body {
+	font-family: "RobotoThin";
+}
+
+
+
+
+
+/*Секция Тренер*/
+
+.main-head-trainer {
+
+}
+.main-head-trainer h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    color: #000;
+}
+
+.main-head-trainer h2:after {
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    background-color: #296cd2;
+    bottom: -40px;
+    height: 6px;
+    left: 49px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 94px;
+    content: "";
+}
+
+.main-photo-trainer {
+    height: 1000px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.main-photo-trainer img {
+    position: absolute;
+    bottom: 0;
+    left: -45px;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+.desc-main-trainer-inform h1 {
+    font-size: 74px;
+    text-transform: uppercase;
+    font-family: "RobotoBold", sans-serif;
+    margin-top: 40px;
+    line-height: 58px;
+    margin-bottom: 30px;
+    color: #000;
+}
+.desc-main-trainer-inform h3 {
+    font-size: 30px;
+    font-family: "RobotoRegular", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #296cd2;
+    display: inline-block;
+    line-height: .8;
+    padding: 7px;
+    margin: 0 0 10px;
+
+}
+
+.desc-main-trainer-inform p {
+    font-size: 18px;
+    line-height: 1.563;
+    margin-bottom: 45px;
+    font-family: "RobotoRegular", sans-serif;
+}
+
+
+.line-motivation {
+    width: 100%;
+    position: relative;
+    left: -113px;
+    z-index: 0;
+    margin-bottom: 60px;
+}
+
+.trainer-description h3 {
+       font-size: 14px;
+    text-transform: uppercase;
+    font-family: "RobotoBold", sans-serif;
+    color: #000;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0px;
+    margin-left: 5px;
+    padding: 0;
+    margin-top: 22px;
+}
+.trainer-description img {
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+.trainer-bottom-text p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.563;
+    margin-bottom: 45px;
+    font-family: "RobotoRegular", sans-serif;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.trainer-our-planet {
+    
+    position: relative;
+    
+}
+
+.trainer-our-planet img {
+    position: relative;
+    bottom: -10px;
+    left: 85px;
+    vertical-align: middle;
+    z-index: 0;
+}
+
+
+
+
+
+

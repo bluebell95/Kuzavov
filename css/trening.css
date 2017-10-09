@@ -1,0 +1,370 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700');
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+    
+}
+body input:required:valid,
+body textarea:required:valid {
+    
+}
+
+
+
+body {
+    font-family: "RobotoThin", sans-serif;
+}
+
+
+
+.main-info-trening {
+    background-image: url(../img/building-training-bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    
+}
+
+
+.main-info-trening h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    position: relative;
+    text-align: left;
+    color: #000000;
+}
+
+.main-info-trening h2:after {
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    background-color: #296cd2;
+    bottom: -40px;
+    height: 6px;
+    left: 49px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 94px;
+    content: "";
+}
+
+.trening-photo img {
+    width: 100%;
+}
+
+
+.reg-form-trening {
+    background-color: #fff;
+    padding: 20px 47px 0;
+    margin-top: 35px;
+    margin-bottom: -15px;
+    padding-bottom: 10px;
+    border: 1px solid #296cd2;
+}
+.reg-form-trening span {
+    color:#296cd2;
+}
+
+.reg-form-trening label {
+    display: inline-block;
+    font-size: 18px;
+    font-family: "RobotoLight", sans-serif;
+    padding: 14px 0;
+    color: #000000;
+}
+
+
+.reg-form-trening input {
+    -webkit-border-radius: 3px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    margin: 0 auto;
+    outline: 0;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.reg-form-trening textarea {
+    -webkit-border-radius: 3px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    display: block;
+    font-size: 18px;
+    height: 150px;
+    margin: 0 auto;
+    outline: 0;
+    padding-left: 10px;
+    width: 100%;
+}
+.submit-button-wrap-trening input:hover {
+    background-color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.submit-button-wrap-reg-form-vip-trening input:hover {
+    background-color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.reg-form-trening .submit-button-wrap-trening {
+    margin: 0 auto;
+    position: relative;
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+.reg-form-trening h1 {
+    font-size: 24px;
+    font-family: "RobotoLight", sans-serif;
+    color: #000000;
+}
+
+
+.reg-form-trening .submit-button-trening {
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    height: auto;
+    margin-top: 45px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-top: 7px;
+    text-align: left;
+    width: 170px;
+    background-color: #296cd2;
+    font-family: "RobotoBold", sans-serif;
+}
+
+.reg-form-trening .submit-button-wrap-trening img {
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    position: absolute;
+    right: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.reg-form-trening p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    padding: 35px 0;
+    text-align: center;
+    font-family: "RobotoLight", sans-serif;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reg-form-vip-trening {
+    background-color: #e5e5e5;
+    padding: 20px 47px 0;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    padding-bottom: 10px;
+    
+}
+.reg-form-vip-trening span {
+    color:#296cd2;
+}
+
+
+
+.reg-form-vip-trening input {
+    -webkit-border-radius: 3px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    margin: 0 auto;
+    outline: 0;
+    padding-left: 10px;
+    width: 100%;
+}
+
+
+
+.reg-form-vip-trening .submit-button-wrap-reg-form-vip-trening {
+    
+    position: relative;
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+.reg-form-vip-trening h1 {
+    font-size: 21px;
+    font-family: "RobotoLight", sans-serif;
+    color: #000000;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+
+.reg-form-vip-trening .submit-button-reg-form-vip-trening {
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-top: 7px;
+    text-align: left;
+    width: 170px;
+    background-color: #296cd2;
+    font-family: "RobotoBold", sans-serif;
+}
+
+.reg-form-vip-trening .submit-button-wrap-reg-form-vip-trening img {
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    position: absolute;
+    right: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.reg-form-vip-trening p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    padding: 35px 0;
+    text-align: center;
+    font-family: "RobotoLight", sans-serif;
+    color: #000000;
+}
+
+
+
+
+
+.content-information-trening h1 {
+    font-size: 36px;
+    font-family: "RobotoLight", sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: -14px;
+}
+.content-information-trening:after {
+    background-color: #296cd2;
+    top: 110px;
+    height: 1px;
+    left: 100px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 165px;
+    content: "";
+}
+
+.coop-study,
+.individual-study {
+    font-size: 14px;
+    font-family: "RobotoLight", sans-serif;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    padding: 4px 10px;   
+}
+
+.coop-study:hover {
+    border: 1px solid #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.individual-study:hover {
+    border: 1px solid #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.coop-study:hover,
+.individual-study:hover {
+    color: #3887ff;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}   
+
+}
+.coop-study {
+    margin-right: 15px;
+}
+
+.content-information-trening img {
+    padding-right: 10px;
+}
+
+
+.about-traning {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.about-traning h3 {
+    font-size: 24px;
+    font-family: "RobotoBold",sans-serif;
+    color: #000000;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+
+
+.about-traning p {
+    font-family: "RobotoLight",sans-serif;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.about-traning ul {
+    list-style-type: none;
+    list-style-image: url(../img/blue-right-arrow.png);
+}
+
+.about-traning ul li {
+    font-size: 16px;
+    color: #000000;
+    font-family: "RobotoLight", sans-serif;
+    line-height: 1.5;
+    padding-top: 10px;
+}
